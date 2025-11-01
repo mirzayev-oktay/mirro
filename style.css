@@ -45,6 +45,7 @@
 
 .hero {
   padding: 100px 0;
+  background-color: #f4f3f0;
 }
 .hero-wrapper {
   display: flex;
@@ -76,5 +77,72 @@
   width: max-content;
   color: #fff;
 }
-.photo-volna {
+
+.services {
+  padding: 100px 0;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.services-icon {
+  width: 160px;
+  height: 20px;
+}
+
+.services-title {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.services-text {
+  color: #292c32;
+  max-width: 591px;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  gap: 12px;
+  background-color: #f4f3f0;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.services-card-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.services-card h1 {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.services-card p {
+  max-width: 310px;
+}
+
+.services-card button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  color: var(--primary-color);
 }
