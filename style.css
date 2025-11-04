@@ -146,3 +146,70 @@
   font-size: 17px;
   color: var(--primary-color);
 }
+.preset-store {
+  padding: 100px 0;
+  background-color: #f4f3f0;
+}
+.preset-store-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 13px;
+}
+.preset-store-icon {
+  width: 160px;
+  height: 19px;
+}
+.preset-store-title {
+  font-size: 32px;
+  color: #db343b;
+  font-weight: 400;
+}
+.preset-store-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  max-width: 591px;
+}
+.preset-store-cards {
+  display: flex;
+  gap: 17px;
+}
+.preset-store-card {
+  width: 378px;
+}
+.preset-store-card-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  margin-top: -10px;
+}
+.preset-store-card-content h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.preset-store-card-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--primary-color);
+  max-width: 317px;
+  line-height: 22.4px;
+}
+.preset-store-btn {
+  border: none;
+  background-color: transparent;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 17px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
