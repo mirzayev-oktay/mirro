@@ -12,6 +12,7 @@
 .container {
   max-width: 1168px;
   margin: 0 auto;
+  padding: 0 8px;
 }
 .navbar {
   padding: 20px 0;
@@ -26,6 +27,11 @@
   align-items: center;
   gap: 20px;
 }
+
+.navbar-menu {
+  display: none;
+}
+
 .navbar-links a {
   text-decoration: none;
   color: var(--primary-color);
@@ -109,6 +115,7 @@
 .services-cards {
   display: flex;
   flex-wrap: wrap;
+
   gap: 16px;
 }
 
