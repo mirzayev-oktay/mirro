@@ -213,3 +213,34 @@
   color: var(--primary-color);
   cursor: pointer;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding: 80px;
+  background-color: #f4f3f0;
+  border-radius: 16px;
+}
+.contact-title {
+  max-width: 313px;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 28px;
+  color: #292c32;
+}
+.contact-btn {
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 20px;
+}
