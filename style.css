@@ -213,3 +213,25 @@
   color: var(--primary-color);
   cursor: pointer;
 }
+.box {
+  height: 259px;
+  width: 800px;
+  background-color: #f4f3f0;
+  border-radius: 5px;
+  padding: 100px;
+  display: flex;
+}
+.contact-text {
+  text-align: left;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 28px;
+  color: #292c32;
+  max-width: 313px;
+}
+.contavt-btn {
+  max-width: 125;
+  border-radius: 5px;
+  border: none;
+  color: var(--primary-color);
+}
