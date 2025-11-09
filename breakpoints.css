@@ -48,3 +48,11 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 1200px) {
+  .preset-store-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+}
