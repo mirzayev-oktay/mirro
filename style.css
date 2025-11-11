@@ -196,6 +196,7 @@
   align-items: start;
   text-align: left;
   margin-top: -10px;
+  height: 170px;
 }
 .preset-store-card-content h1 {
   font-weight: 400;
