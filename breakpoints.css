@@ -78,3 +78,20 @@
     text-align: center;
   }
 }
+@media (max-width: 950px) {
+  .footer-columns {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .footer-column {
+    align-items: center;
+    text-align: center;
+  }
+  .footer-copyright {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
