@@ -71,6 +71,7 @@
 @media (max-width: 600px) {
   .box {
     flex-direction: column;
+    align-items: center;
     gap: 30px;
   }
   .contact-title {
